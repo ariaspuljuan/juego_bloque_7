@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Demo de juego con Pygame
 
 Este proyecto es un demo simple de un juego en Python usando `pygame`.
@@ -65,3 +66,4 @@ Cambia `main` por la rama principal que uses en tu repositorio si es necesario.
 ## Nota
 
 El archivo `requirements.txt` usa `pygame-ce`, que instala correctamente en Windows con Python 3.14.
+
