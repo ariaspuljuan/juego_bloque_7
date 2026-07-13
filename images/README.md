@@ -10,13 +10,13 @@ Formato:
 PNG
 
 Fondo:
-- Transparente para personajes, enemigos, objetos y NPC.
-- Completo o transparente para pisos y paredes.
+- Transparente para personajes, enemigos, vecinos y objetos.
+- Puede ser transparente o completo para pisos y paredes.
 
 Estilo:
 - Pixel Art
 - Vista desde arriba (Top Down)
-- Colores alegres y cálidos
+- Colores alegres
 - Estilo caricaturesco
 
 ------------------------------------------------------------
@@ -26,13 +26,13 @@ TAMAÑO DE LAS IMÁGENES
 Pisos, paredes, puertas y ascensor:
 64 x 64 píxeles
 
-Personaje principal:
+Personajes:
 48 x 48 píxeles
 
 Enemigos:
 48 x 48 píxeles
 
-Vecinos (NPC):
+Vecinos:
 48 x 48 píxeles
 
 Objetos:
@@ -52,17 +52,9 @@ Imágenes necesarias:
 
 nino_quieto.png
 
-nino_caminar1.png
-
-nino_caminar2.png
-
-nino_correr.png
+nino_caminar.png
 
 nino_negociar.png
-
-nino_esquivar.png
-
-nino_golpeado.png
 
 ------------------------------------------------------------
 ENEMIGOS
@@ -122,16 +114,14 @@ presidente_caminar.png
 
 presidente_atacar.png
 
-presidente_enojado.png
-
-presidente_derrotado.png
-
 ------------------------------------------------------------
 VECINOS (NPC)
 ------------------------------------------------------------
 
 Tamaño:
 48 x 48 píxeles
+
+Cada vecino solo necesita una imagen.
 
 portero.png
 
@@ -189,8 +179,6 @@ multa_icono.png
 
 megafono_icono.png
 
-llave_icono.png
-
 ------------------------------------------------------------
 PISOS Y ESCENARIOS
 ------------------------------------------------------------
@@ -246,17 +234,31 @@ ascensor.png
 REGLAS IMPORTANTES
 ------------------------------------------------------------
 
-✔ Todas las imágenes deben ser PNG.
+✔ Todas las imágenes deben estar en formato PNG.
 
-✔ Los personajes, vecinos, enemigos y objetos deben tener fondo transparente.
+✔ Los personajes, enemigos y objetos deben tener fondo transparente.
 
-✔ Todas las imágenes del mismo personaje deben medir exactamente lo mismo.
+✔ Todos los sprites del mismo personaje deben medir exactamente 48 x 48 píxeles.
 
-✔ Todos los pisos, paredes y puertas deben medir 64 x 64 píxeles.
+✔ Todos los pisos y paredes deben medir exactamente 64 x 64 píxeles.
 
-✔ Mantener el mismo estilo Pixel Art en todo el juego.
+✔ Mantener el mismo estilo Pixel Art durante todo el juego.
 
-✔ Usar nombres sencillos y sin espacios.
+✔ Utilizar nombres sencillos, en minúsculas y sin espacios.
+
+Ejemplos:
+
+nino_quieto.png
+
+queja_atacar.png
+
+piso_porteria.png
+
+puerta101.png
+
+megafono.png
+
+presidente_caminar.png
 
 Ejemplos:
 
